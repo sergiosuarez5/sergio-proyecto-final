@@ -100,9 +100,6 @@ footer p {
 body {
   font-family: "Montserrat", sans-serif;
   background-image: url(../img/bg-pof.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 100%;
 }
 
 /* ======================================================================*/
@@ -124,7 +121,6 @@ body {
   background-image: url(../img/slideopaco.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: 100%;
 }
 .mainHome h1 {
   text-align: center;
@@ -311,7 +307,6 @@ section .container .face .face2 p {
   background-image: url(../img/slideopaco.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: 100%;
 }
 .info-aboutme i {
   font-size: 50px;
@@ -412,7 +407,6 @@ main .mainportf {
   background-image: url(../img/slideopaco.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: 100%;
 }
 main .mainportf h1 {
   width: 100%;
