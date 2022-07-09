@@ -100,8 +100,6 @@ footer p {
 body {
   font-family: "Montserrat", sans-serif;
   background-image: url(../img/bg-pof.png);
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 /* ======================================================================*/
