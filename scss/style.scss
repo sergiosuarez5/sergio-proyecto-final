@@ -17,7 +17,9 @@
 body {
     font-family: $font; 
     background-image: url(../img/bg-pof.png);
-
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: 100%;
 
 
 }
@@ -41,8 +43,10 @@ body {
     text-align: center;
     padding: 50px;
     background-image: url(../img/slideopaco.jpg);
+    background-size:cover;
     background-attachment: fixed;
-    background-size: cover;
+    background-position: 100%;
+
 
     h1 {
         text-align: center;
@@ -193,10 +197,10 @@ section .container {
     .servicios {
         text-align: center;
         .pSection {
-            font-size: 30px;
+            font-size: 25px;
         }
         h3 {
-            font-size: 40px;
+            font-size: 35px;
             text-decoration:underline $color2;
         }
         i {
@@ -230,10 +234,9 @@ section .container {
 
     .new-world {
         padding: 10px;
-        font-size: 50px;
+        font-size: 30px;
     }
 }
-
 /* --------------------SECTIONS FIN------------------- */
 /* ======================================================================*/
 /* ----------------INICIA ABOUT ME ----------------- */
@@ -243,8 +246,9 @@ section .container {
         align-items: center;
         text-align: center;
         background-image: url(../img/slideopaco.jpg);
+        background-size:cover;
         background-attachment: fixed;
-        background-size: cover;
+        background-position: 100%;
 
         i {
             font-size: 50px;
@@ -366,8 +370,9 @@ main {
         align-items: center;
         text-align: center;
         background-image: url(../img/slideopaco.jpg);
+        background-size:cover;
         background-attachment: fixed;
-        background-size: cover;
+        background-position: 100%;
     
         h1 {
             width: 100%;
@@ -419,7 +424,7 @@ main {
                 transition: all 0.7s;
                 filter: sepia(0%);
                 transform: scale(1.05);
-                color: $color2;
+                color: $color5;
             }
         }
 
@@ -684,8 +689,9 @@ main {
 /* ------------------FORM CONTACT ME-------------- */
 .contact-content {
     background-image: url(../img/slideopaco.jpg);
+    background-size:cover;
     background-attachment: fixed;
-    background-size: cover;
+    background-position: 100%;
     color: $color4;
     padding: 50px;
     text-align: center;

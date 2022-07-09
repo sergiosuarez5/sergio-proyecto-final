@@ -100,6 +100,9 @@ footer p {
 body {
   font-family: "Montserrat", sans-serif;
   background-image: url(../img/bg-pof.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
 }
 
 /* ======================================================================*/
@@ -119,8 +122,9 @@ body {
   text-align: center;
   padding: 50px;
   background-image: url(../img/slideopaco.jpg);
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
 }
 .mainHome h1 {
   text-align: center;
@@ -261,10 +265,10 @@ section .container .face .face2 p {
   text-align: center;
 }
 .wrapper .servicios .pSection {
-  font-size: 30px;
+  font-size: 25px;
 }
 .wrapper .servicios h3 {
-  font-size: 40px;
+  font-size: 35px;
   text-decoration: underline #00acb5;
 }
 .wrapper .servicios i {
@@ -294,7 +298,7 @@ section .container .face .face2 p {
 }
 .wrapper .new-world {
   padding: 10px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 /* --------------------SECTIONS FIN------------------- */
@@ -305,8 +309,9 @@ section .container .face .face2 p {
   align-items: center;
   text-align: center;
   background-image: url(../img/slideopaco.jpg);
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
 }
 .info-aboutme i {
   font-size: 50px;
@@ -405,8 +410,9 @@ main .mainportf {
   align-items: center;
   text-align: center;
   background-image: url(../img/slideopaco.jpg);
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
 }
 main .mainportf h1 {
   width: 100%;
@@ -455,7 +461,7 @@ main .mainportf .lenguages:hover {
   transition: all 0.7s;
   filter: sepia(0%);
   transform: scale(1.05);
-  color: #00acb5;
+  color: #d9bb96;
 }
 main .mainportf h4 {
   color: #fff;
@@ -667,8 +673,9 @@ main .mainportf h4 {
 /* ------------------FORM CONTACT ME-------------- */
 .contact-content {
   background-image: url(../img/slideopaco.jpg);
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: 100%;
   color: #fff;
   padding: 50px;
   text-align: center;
