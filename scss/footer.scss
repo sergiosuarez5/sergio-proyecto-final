@@ -1,0 +1,59 @@
+/* -----------------INICIO FOOTER all pages-------------------- */
+
+footer {
+    font-family: $font;
+    background-color: $color1;
+
+    img{
+        width: 350px;
+        transition: 0.5s;
+        padding: 30px;
+
+        &:hover {
+            transition: all 0.7s;
+            filter: sepia(0%);
+            transform: scale(1.05);
+            border-radius: 30px;
+        }
+    }
+
+
+    .titules {
+        font-size: 25px;
+        color: $color2;
+        text-decoration:double;
+    }
+
+    .links {
+        font-size: 20px;
+        margin: 0px 10px 0px 10px;
+        color: $color4;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: $font;
+        text-decoration: none;
+        transition: 0.3s;
+
+        &:hover {
+            color: $color5;
+        }
+    }
+
+    ul li a {
+        font-size: 35px;
+        color: $color4;
+        margin-left: 20px;
+        margin-right: 20px;
+        transition: all 0.5s;
+
+        &:hover {
+            color: $color5;
+            transition: all 0.5s;
+        }
+    }
+    p{
+        font-size: 20px;
+    }
+}
+/* ------------------FIN FOOTER-------------- */
+/* ======================================================================*/

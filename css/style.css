@@ -1,0 +1,759 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Raleway:wght@200&display=swap"); /* variables */
+/* Colors page */
+/*FIN colors*/
+/* fonts sizes */
+/*--------------------- INICIA Header all pages--------------------- */ /* variables */
+/* Colors page */
+/*FIN colors*/
+/* fonts sizes */
+header {
+  font-size: 25px;
+  height: max-content;
+  justify-content: center;
+  background-color: #152d35;
+  color: #fff;
+}
+header .logotipe {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+header nav {
+  margin-left: 30vw;
+}
+header nav li {
+  padding: 10px;
+}
+header nav li a {
+  text-decoration: none;
+  background-image: linear-gradient(#152d35, #00acb5);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  transition: background-size 0.3s;
+}
+header nav li a:hover {
+  background-size: 100% 2px;
+  background-color: #152d35;
+  border-radius: 10px;
+}
+
+/*--------------------------- FIN header------------ */
+/* -----------------INICIO FOOTER all pages-------------------- */
+footer {
+  font-family: "Montserrat", sans-serif;
+  background-color: #152d35;
+}
+footer img {
+  width: 350px;
+  transition: 0.5s;
+  padding: 30px;
+}
+footer img:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+  border-radius: 30px;
+}
+footer .titules {
+  font-size: 25px;
+  color: #00acb5;
+  text-decoration: double;
+}
+footer .links {
+  font-size: 20px;
+  margin: 0px 10px 0px 10px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer .links:hover {
+  color: #d9bb96;
+}
+footer ul li a {
+  font-size: 35px;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: all 0.5s;
+}
+footer ul li a:hover {
+  color: #d9bb96;
+  transition: all 0.5s;
+}
+footer p {
+  font-size: 20px;
+}
+
+/* ------------------FIN FOOTER-------------- */
+/* ======================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../img/bg-pof.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* ======================================================================*/
+/* ----------BARRA Welcome! all pages ---------- */
+.welcome {
+  background-color: #d9bb96;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+/* --------------FIN barra welcome!------------------ */
+/* ======================================================================*/
+/* -------------------INICIO Main INDEX------------------ */
+.mainHome {
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  background-image: url(../img/slideopaco.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.mainHome h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
+.mainHome h1 span {
+  color: #00acb5;
+}
+.mainHome p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.mainHome li {
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+}
+.mainHome .img-principal {
+  box-shadow: 1px 10px 25px #000;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+.mainHome .img-principal:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+}
+.mainHome .clicks {
+  font-family: inherit;
+  font-size: 15px;
+  background: #00acb5;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.mainHome .clicks:hover {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+  background-color: #d9bb96;
+}
+
+/* -------------------FIN MAIN INDEX-------------- */
+/* ======================================================================*/
+/* ----------------SECTIONS INICIAN INDEX-------------- */
+/* CARDS DE HTML CSS Y JS */
+section .container {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 30px;
+}
+section .container .card {
+  padding: 20px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 1px 10px 15px #000;
+}
+section .container .card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.4s;
+}
+section .container .card .face.face1 {
+  position: relative;
+  width: 100%;
+  background: #152d35;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+section .container .card .face.face1:hover {
+  transform: translateY(0);
+  background-color: #00acb5;
+}
+section .container .card .face.face1 .content {
+  opacity: 0.8;
+  transition: 0.5s;
+  text-align: center;
+}
+section .container .card .face.face1 .content i {
+  font-size: 8em;
+  color: #fff;
+  display: inline-block;
+}
+section .container .card .face.face1 .content h3 {
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+}
+section .container .card .face.face1 .content p {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+section .container .face .face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transform: translateY(-100px);
+}
+section .container .face .face2:hover .face.face2 {
+  transform: translateY(0);
+}
+section .container .face .face2 p {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+/* FIN SECTION1 HTML CSS Y JS */
+/* SERVICIOS INICIA SECTION 2 */
+.wrapper {
+  padding: 50px;
+}
+.wrapper .servicios {
+  text-align: center;
+}
+.wrapper .servicios .pSection {
+  font-size: 30px;
+}
+.wrapper .servicios h3 {
+  font-size: 40px;
+  text-decoration: underline #00acb5;
+}
+.wrapper .servicios i {
+  font-size: 80px;
+  color: #00acb5;
+  transition: 0.5s;
+}
+.wrapper .servicios i:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+  color: #fff;
+}
+.wrapper .servicios div {
+  text-align: center;
+}
+.wrapper .img-lenguages {
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+  transition: 0.5s;
+}
+.wrapper .img-lenguages:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+}
+.wrapper .new-world {
+  padding: 10px;
+  font-size: 50px;
+}
+
+/* --------------------SECTIONS FIN------------------- */
+/* ======================================================================*/
+/* ----------------INICIA ABOUT ME ----------------- */
+.info-aboutme {
+  padding: 50px;
+  align-items: center;
+  text-align: center;
+  background-image: url(../img/slideopaco.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.info-aboutme i {
+  font-size: 50px;
+  color: #00acb5;
+  transition: 0.5s;
+}
+.info-aboutme i:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+  color: #fff;
+}
+.info-aboutme h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.5em;
+}
+.info-aboutme h1 span {
+  color: #00acb5;
+}
+.info-aboutme .img-aboutme {
+  justify-content: center;
+  text-align: center;
+  box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.5);
+  transition: all 1seg;
+}
+.info-aboutme .img-aboutme:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+}
+.info-aboutme p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.info-aboutme .clicks {
+  font-family: inherit;
+  font-size: 15px;
+  background: #00acb5;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.info-aboutme .clicks:hover {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+  background-color: #d9bb96;
+}
+.info-aboutme .pAboutme {
+  padding: 20px;
+}
+
+.purpose-info h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+.purpose-info h2 span {
+  color: #00acb5;
+}
+.purpose-info p {
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  padding: 20px;
+}
+.purpose-info .process {
+  width: 100%;
+}
+.purpose-info .more-info {
+  text-align: center;
+}
+.purpose-info .more-info h4 {
+  font-size: 40px;
+  padding: 50px;
+}
+.purpose-info .more-info i {
+  font-size: 80px;
+  color: #00acb5;
+  transition: 0.5s;
+}
+.purpose-info .more-info i:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+  color: #fff;
+}
+
+/* ----------------FIN ABOUT ME ----------------- */
+/* -----------PORTFOLIO INICIA MAIN -------------- */
+main .mainportf {
+  padding: 80px;
+  align-items: center;
+  text-align: center;
+  background-image: url(../img/slideopaco.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+main .mainportf h1 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+main .mainportf h1 span {
+  color: #00acb5;
+}
+main .mainportf i {
+  font-size: 50px;
+  color: #fff;
+  transition: 0.5s;
+  padding: 10px;
+}
+main .mainportf i:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+  color: #00acb5;
+}
+main .mainportf p {
+  color: #fff;
+  font-size: 20px;
+}
+main .mainportf .clicks {
+  font-family: inherit;
+  font-size: 15px;
+  background: #00acb5;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+main .mainportf .clicks:hover {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+  background-color: #d9bb96;
+}
+main .mainportf .lenguages {
+  color: #fff;
+  transition: 0.5s;
+}
+main .mainportf .lenguages:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+  color: #00acb5;
+}
+main .mainportf h4 {
+  color: #fff;
+}
+
+/* Cards projects Portfolio */
+.cards-folio {
+  margin: 5vh;
+}
+.cards-folio .blog-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  box-shadow: 0 3px 7px -1px #000;
+  margin-bottom: 1.6%;
+  background: #fff;
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  border: solid 2px #00acb5;
+  overflow: hidden;
+  z-index: 0;
+}
+.cards-folio .blog-card a {
+  color: inherit;
+}
+.cards-folio .blog-card a:hover {
+  color: #00acb5;
+}
+.cards-folio .blog-card:hover .photo {
+  transform: scale(1.3) rotate(0deg);
+}
+.cards-folio .blog-card .meta {
+  position: relative;
+  z-index: 0;
+  height: 200px;
+}
+.cards-folio .blog-card .photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.2s;
+}
+.cards-folio .blog-card .details,
+.cards-folio .blog-card .details ul {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+.cards-folio .blog-card .details {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  margin: auto;
+  transition: left 0.2s;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+.cards-folio .blog-card .details a {
+  text-decoration: dotted underline;
+}
+.cards-folio .blog-card .details ul li {
+  display: inline-block;
+}
+.cards-folio .blog-card .details .author:before {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 10px;
+}
+.cards-folio .blog-card .details .date:before {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 10px;
+}
+.cards-folio .blog-card .details .tags ul:before {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 10px;
+}
+.cards-folio .blog-card .details .tags li {
+  margin-right: 2px;
+}
+.cards-folio .blog-card .details .tags li:first-child {
+  margin-left: -4px;
+}
+.cards-folio .blog-card .description {
+  padding: 1rem;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+.cards-folio .blog-card .description .fa-certificate {
+  color: #00acb5;
+}
+.cards-folio .blog-card .description h1,
+.cards-folio .blog-card .description h2 {
+  font-family: "Montserrat", sans-serif;
+}
+.cards-folio .blog-card .description h1 {
+  line-height: 1;
+  margin: 0;
+  font-size: 1.7rem;
+}
+.cards-folio .blog-card .description h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #00acb5;
+  margin-top: 5px;
+}
+.cards-folio .blog-card .description .read-more {
+  text-align: right;
+}
+.cards-folio .blog-card .description .read-more a {
+  color: #00acb5;
+  display: inline-block;
+  position: relative;
+}
+.cards-folio .blog-card .description .read-more a:after {
+  font-family: "Montserrat", sans-serif;
+  margin-left: -10px;
+  opacity: 0;
+  vertical-align: middle;
+  transition: margin 0.3s, opacity 0.3s;
+}
+.cards-folio .blog-card .description .read-more a:hover:after {
+  margin-left: 5px;
+  opacity: 1;
+}
+.cards-folio .blog-card p {
+  position: relative;
+  margin: 1rem 0 0;
+}
+.cards-folio .blog-card p:first-of-type {
+  margin-top: 1.25rem;
+}
+.cards-folio .blog-card p:first-of-type:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  background: #d9bb96;
+  width: 35px;
+  top: -0.75rem;
+  border-radius: 3px;
+}
+.cards-folio .blog-card:hover .details {
+  left: 0%;
+}
+@media (min-width: 640px) {
+  .cards-folio .blog-card {
+    flex-direction: row;
+    max-width: 700px;
+  }
+  .cards-folio .blog-card .meta {
+    flex-basis: 40%;
+    height: auto;
+  }
+  .cards-folio .blog-card .description {
+    flex-basis: 60%;
+  }
+  .cards-folio .blog-card .description:before {
+    transform: skewX(-3deg);
+    content: "";
+    background: #fff;
+    width: 20px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .cards-folio .blog-card.alt {
+    flex-direction: row-reverse;
+  }
+  .cards-folio .blog-card.alt .description:before {
+    left: inherit;
+    right: -10px;
+    transform: skew(3deg);
+  }
+  .cards-folio .blog-card.alt .details {
+    padding-left: 25px;
+  }
+}
+
+.coming-soon h3 {
+  color: #152d35;
+  text-align: center;
+  justify-content: center;
+  padding: 60px;
+}
+.coming-soon i {
+  font-size: 30px;
+  color: #00acb5;
+  transition: 0.5s;
+}
+.coming-soon i:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+  color: #fff;
+}
+
+/* -----------FIN PORTFOLIO MAIN -------------- */
+/* ------------------FORM CONTACT ME-------------- */
+.contact-content {
+  background-image: url(../img/slideopaco.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+.contact-content p {
+  font-size: 20px;
+}
+.contact-content .color {
+  color: #00acb5;
+}
+.contact-content .contacto {
+  font-family: "Montserrat", sans-serif;
+}
+.contact-content .contacto .formulario {
+  font-family: "Montserrat", sans-serif;
+  margin: 15px;
+}
+.contact-content .contacto .clicks {
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  font-size: 15px;
+  background: #00acb5;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.contact-content .contacto .clicks:hover {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+  background-color: #d9bb96;
+}
+.contact-content .contacto .info {
+  text-align: left;
+  margin-top: 35px;
+  width: 100%;
+  padding: 50px;
+}
+.contact-content .contacto .info i {
+  font-size: 30px;
+  color: #00acb5;
+  transition: 0.5s;
+}
+.contact-content .contacto .info i:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+  color: #d9bb96;
+}
+
+.contact-img {
+  text-align: center;
+  padding: 20px;
+}
+.contact-img .img-contact {
+  border-radius: 100px;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.5s;
+}
+.contact-img .img-contact:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+}
+.contact-img i {
+  font-size: 80px;
+  transition: all 0.5s;
+  color: #00acb5;
+  padding: 30px;
+}
+.contact-img i:hover {
+  transition: all 0.7s;
+  filter: sepia(0%);
+  transform: scale(1.05);
+  color: #fff;
+}
+.contact-img p {
+  font-size: 30px;
+}
+
+/* ------------------FIN FORM-------------- */
+/* ======================================================================*/
+
+/*# sourceMappingURL=style.css.map */
