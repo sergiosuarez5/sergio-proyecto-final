@@ -410,7 +410,9 @@ main {
 
         .lenguages{
             color: $color4;
+            font-size: 60px;
             transition: 0.5s;
+            padding: 40px 10px;
             
             &:hover {
                 transition: all 0.7s;

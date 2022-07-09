@@ -449,7 +449,9 @@ main .mainportf .clicks:hover {
 }
 main .mainportf .lenguages {
   color: #fff;
+  font-size: 60px;
   transition: 0.5s;
+  padding: 40px 10px;
 }
 main .mainportf .lenguages:hover {
   transition: all 0.7s;
